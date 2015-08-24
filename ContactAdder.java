@@ -94,21 +94,6 @@ private static Scanner s;
 		
 }
     
-    //TODO Eventually, I would like this to be only one part of a larger program but I will keep the main function 
-	// here for now for testing purposes 
-    public static void main(String[] args) {
-        ContactAdder myWindow;
-		try {
-			myWindow = new ContactAdder("Knights For Bernie Database Manager");
-			myWindow.setSize(1050,250);
-	        myWindow.setVisible(true);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-       
-}
-    
     
     
 
